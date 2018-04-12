@@ -12,7 +12,7 @@ body {
 	width: 660px;
 	height: 400px;
 	margin: 0 auto;
-	background: #feffff;
+	background-color: #f4f1ef;
 	margin-top: 119px;
 	position: absolute;
 	margin-left: 350px;
@@ -61,6 +61,7 @@ h2 {
 p {
     line-height:1.4;
     margin-left:10px;
+    margin-right:10px;
 }
 
 .footer {
@@ -73,3 +74,28 @@ p {
     text-align:center;
     z-index:200;
 }
+
+/*******************************Portfolio page************************************/
+
+
+
+
+
+
+
+/*********************************Contact page************************************/
+
+
+#contact #h2 {
+    margin-top:25px;
+
+}
+    
+
+
+
+
+
+
+
+
