@@ -6,6 +6,8 @@
  
 body {
     background-image:url(/assets/images/ep_naturalwhite.png);
+    box-sizing:border-box;
+    overflow:hidden
 }
 
 .head {
@@ -29,11 +31,18 @@ h1 {
 
 .menu {
     float:right;
+    position:relative;
+    text-align: center;
+    font-size:18px;
+    margin-right:350px
+    
 }
 
 a {
     text-decoration: none;
-    margin-right:80px
+    margin-right:80px;
+    
+
 }
 
 a:hover {
@@ -56,7 +65,7 @@ h2 {
 .wrapper {
     max-width: 960px;
 	height: 350px;
-	margin: 0 auto;
+	margin: auto;
 	background-color: #f4f1ef;
 	margin-top: 75px;
 	position: absolute;
@@ -89,9 +98,11 @@ footer {
     margin-top: 20px;
 	position:absolute;
     bottom: 0;
+    margin-bottom:0;
     width:100%;
     text-align:center;
     border-top:4px solid teal;
+    z-index:200;
 }
 
 
@@ -101,6 +112,13 @@ footer {
 #portfolio .image:hover {
     opacity: 0.5;
     filter: alpha(opacity=50); 
+}
+
+.resize {
+    width:750px;
+    height:450px;
+    
+
 }
 
 /*************************************contact page**********************************/
