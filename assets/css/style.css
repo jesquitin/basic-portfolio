@@ -3,6 +3,7 @@
     padding:0;
 }
 
+ 
 body {
     background-image:url(/assets/images/ep_naturalwhite.png);
 }
@@ -35,6 +36,15 @@ a {
     margin-right:80px
 }
 
+a:hover {
+    color: red;
+}
+
+a:active {
+    color: teal;
+}
+
+
 h2 {
     color:teal;
     font-family:"Arial", "helvetica Neue", Helvetica, soans-serif;
@@ -42,8 +52,9 @@ h2 {
     border-bottom: 1px solid #777777;
 }
 
+
 .wrapper {
-    width: 960px;
+    max-width: 960px;
 	height: 350px;
 	margin: 0 auto;
 	background-color: #f4f1ef;
@@ -53,14 +64,15 @@ h2 {
     top:57px;
     padding:20px;
     
-}
+ }
+
 
 p {
     padding-top: 20px;
     font-family:"Arial", "Helvetica Neue", Helvetica, sans-serif;
-    color:#777777;
-        
+    color:#777777;       
 }
+
 
 img {
     width: 200px;
@@ -80,5 +92,22 @@ footer {
     width:100%;
     text-align:center;
     border-top:4px solid teal;
+}
+
+
+/************************************Portfolio Page*********************************/
+
+/*image hover effect*/
+#portfolio .image:hover {
+    opacity: 0.5;
+    filter: alpha(opacity=50); 
+}
+
+/*************************************contact page**********************************/
+
+/*hover submit button******/
+
+#submit:hover {
+    background-color:#9CFFD9
 }
 
